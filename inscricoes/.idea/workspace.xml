@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f217b149-009d-4eb2-bbd2-7d136744fae1" name="Default" comment="" />
+    <list default="true" id="178b075d-b756-4342-a422-1aef308e928c" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,19 +30,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="encoinfo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="encoinfo" type="462c0819:PsiDirectoryNode" />
+              <item name="inscricoes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="inscricoes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="inscricoes" type="b2602c69:ProjectViewProjectNode" />
+              <item name="inscricoes" type="462c0819:PsiDirectoryNode" />
+              <item name="migrations" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -65,11 +70,11 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="f217b149-009d-4eb2-bbd2-7d136744fae1" name="Default" comment="" />
-      <created>1508200449533</created>
+      <changelist id="178b075d-b756-4342-a422-1aef308e928c" name="Default" comment="" />
+      <created>1508803435325</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1508200449533</updated>
+      <updated>1508803435325</updated>
     </task>
     <servers />
   </component>

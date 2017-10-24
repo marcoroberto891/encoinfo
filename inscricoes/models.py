@@ -10,7 +10,7 @@ class User(models.Model):
 class Pessoa(models.Model):
     nome = models.CharField('nome',max_length=100)
     cpf = models.CharField('cpf',max_length=11)
-    is_admin = models.ForeignKey(User, related_name='is_admin', null=True,blank=False)
+    is_admin = models.ForeignKey(User, related_name='Pessoa_is_admin', null=True,blank=False)
 
 class Evento(models.Model):
     nome = models.CharField('nome',max_length=50)
@@ -21,5 +21,5 @@ class Evento(models.Model):
 class Inscricao(models.Model):
     nome = models.CharField('nome',max_length=100)
     cpf = models.CharField('cpf',max_length=11)
-    is_admin = models.ForeignKey(User, related_name='is_admin', null=True,blank=False)
+    is_admin = models.ForeignKey(User, related_name='Inscricao_is_admin', null=True,blank=False)
 
