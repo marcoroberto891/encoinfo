@@ -10,7 +10,8 @@ class User(models.Model):
 class Pessoa(models.Model):
     nome = models.CharField('nome',max_length=100)
     cpf = models.CharField('cpf',max_length=11)
-    is_admin = models.ForeignKey(User, related_name='Pessoa_is_admin', null=True,blank=False)
+    id_user = models.ForeignKey(User, related_name='users_admin', null=True,blank=False)
+    is_admin = models.BooleanField(blank=True)
 
 class Evento(models.Model):
     nome = models.CharField('nome',max_length=50)

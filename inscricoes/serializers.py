@@ -11,10 +11,10 @@ class UserSerializer(serializers.HyperlinkedModelSerializer):
         fields = ('id', 'login', 'senha',)
 
 class PessoaSerializer(serializers.HyperlinkedModelSerializer):
-
-   class Meta:
+    #User = UserSerializer(many = False)
+    class Meta:
         model = Pessoa
-        fields = ('id', 'nome', 'cpf','is_admin')
+        fields = ('id', 'nome', 'cpf','id_user','is_admin' ,)
 
 '''class AgendaSerializer(serializers.HyperlinkedModelSerializer):
     usuario = UserSerializer(many=True)
